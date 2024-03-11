@@ -4,3 +4,5 @@ Hangman is a classic game in which a player thinks of a word and the other playe
 This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
 
 I have so far implemneted the basic logic of asking the user for input and matching that against a randomised but predetermined list of words. 
+
+added ability to check the guess provided by the user aswell as the ability to ask for said guess.
