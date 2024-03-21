@@ -1,21 +1,26 @@
 # Hangman
-Hangman is a classic game in which a player thinks of a word and the other player tries to guess that word within a certain amount of attempts.
 
-This is an implementation of the Hangman game, where the computer thinks of a word and the user tries to guess it. 
+Hangman is a classic game in which one player thinks of a word and the other player tries to guess it within a certain number of attempts. This implementation of Hangman is designed for single-player use, where the computer selects a random word from a predetermined list and the player tries to guess it.
 
-I have so far implemneted the basic logic of asking the user for input and matching that against a randomised but predetermined list of words. 
+## Features
 
-added ability to check the guess provided by the user aswell as the ability to ask for said guess.
-added ability to terminate game when set number of lives runs out.
+- Random selection of a word from a predefined list.
+- Ability for the player to guess letters and check if they are in the word.
+- Display of the guessed letters and the remaining lives.
+- Game termination upon either running out of lives or correctly guessing the word.
 
-Usage instructions:
+## Usage Instructions
 
-Run program.
-When prompted for input, enter a letter.
-Continue to follow prompts until you either run out of lives or win the game.
-Game terminates when one of said conditions is met.
+1. Run the program.
+2. When prompted for input, enter a letter.
+3. Continue guessing letters until you either run out of lives or correctly guess the word.
+4.Check the live tracker to see what letters you've guessed and how many are left.
+5. The game terminates when one of these conditions is met.
 
-File structure:
+## File Structure
 
-Consists of one python file.
-File consists of one class named Hangman which contains multiple methods to provide functionality.
+- The project consists of a single Python file.
+- The file contains a class named `Hangman`, which encapsulates the game logic and functionality through various methods.
+
+
+
