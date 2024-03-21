@@ -54,7 +54,7 @@ class Hangman:
             self.num_letters -=1
             print(self.word_guessed)
         else:
-            self.num_lives-=1
+            self.num_lives-= 1
             print(f'Sorry, {guess} is not in the word')
             print(f'You have {self.num_lives} lives left')
             
@@ -63,7 +63,7 @@ class Hangman:
             This function asks the user for an input.
                 It filters the user input to make sure there are no invalid or duplicate inputs.
 
-                Returns:
+                Returns:a
                     str: Invalid letter if letter is len of letter is more than 1 and if not alphabetical.
                     str: You already tried that if duplicate letter detected.
                     
@@ -101,6 +101,6 @@ def play_game(word_list):
             print("Congratulations you've won the game")        
             print(f'the word was: {game.word}')
             break
-word_list = ['watermelon','mandarin','mango','apple','grape']
-game=Hangman(word_list)
-play_game(word_list)
+if __name__ =="__main__":
+    word_list = ['watermelon','mandarin','mango','apple','grape']
+    play_game(word_list)
