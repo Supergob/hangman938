@@ -14,7 +14,7 @@ Hangman is a classic game in which one player thinks of a word and the other pla
 1. Run the program.
 2. When prompted for input, enter a letter.
 3. Continue guessing letters until you either run out of lives or correctly guess the word.
-4.Check the live tracker to see what letters you've guessed and how many are left.
+4. Check the live tracker to see what letters you've guessed and how many are left.
 5. The game terminates when one of these conditions is met.
 
 ## File Structure
